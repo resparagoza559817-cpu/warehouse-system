@@ -127,8 +127,9 @@ public class system {
         item loadedContainer = itemStack.pop();
         truck loadedShip = truckQueue.poll();
         
-        System.out.println("Loaded: " + loadedContainer + " → " + loadedShip);
+        System.out.println("Loaded: " + loadedContainer + " -> " + loadedShip);
         System.out.println("Remaining items: " + itemStack.size());
         System.out.println("Remaining trucks: " + truckQueue.size());
     }
+
 }
